@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane onMouseClicked="#mouseClicked" stylesheets="/View/Open.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+   <center>
+      <Button mnemonicParsing="false" onAction="#play" prefHeight="51.0" prefWidth="109.0" text="Lets Play" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+   </center>
+</BorderPane>

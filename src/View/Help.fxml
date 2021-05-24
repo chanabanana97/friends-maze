@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="640.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label text="Welcome to our maze!         &#10;&#10;The goal of the game is to get Chandler to Monice!         &#10;&#10;You can choose the size of your maze by adjusting the rows and columns.         &#10;There are 3 types of mazes:         &#10;Prim's, Simple and Empty.         &#10;There are 3 different ways to solve the maze:         &#10;Best First Search, Breadth First Search or Depth First Search.         &#10;You can choose the number of threads.         &#10;To move in the maze, use the arrows in your keyboard,         &#10;or use the numbers in the keyboard         &#10;2 -&gt; down                           8 -&gt; up         &#10;4 -&gt; left                              6 -&gt; right         &#10;7 -&gt; diagonal left up          9 -&gt; diagonal right up         &#10;1 -&gt; diagonal left down     3 -&gt; diagonal right down         &#10;For an extra challenge, try to solve the maze using as few steps as possible.         &#10;&#10;Enjoy!         &#10;Chana Dalfen and Elit Manes&#10;" textFill="#580570" AnchorPane.leftAnchor="0.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Label>
+      <Pane fx:id="picture" layoutX="14.0" layoutY="334.0" prefHeight="275.0" prefWidth="347.0" />
+    </children>
+</AnchorPane>
